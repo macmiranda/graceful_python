@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  workspace:
+    image: graceful_python
+    build:
+      context: .
+      dockerfile: ./Dockerfile
